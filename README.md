@@ -4,7 +4,7 @@ Authors: Winfred Kabuya
 
 Period : May 2023
 
-!(images/R.jpeg)
+![image](images/R.jpeg)
 
 ## Project Overview
 
@@ -42,7 +42,7 @@ We tested the different models and based on the accuracy score we settled on the
 
 Overall, the model achieved an accuracy of 81%, which means that it correctly predicted the class for approximately 81% of the instances in the validation set. The macro-averaged F1-score is also 81%, indicating consistent performance across all classes. The weighted average F1-score is also 81%, considering the class imbalance in the dataset.
 
-!(image.png)
+![image](images/One hot coding.png)
 
 
 
