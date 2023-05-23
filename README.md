@@ -1,3 +1,77 @@
+## **TANZANIA WATER WELLS PROJECT**
+
+Authors: Winfred Kabuya
+
+Period : May 2023
+
+images/R.jpeg
+
+## Project Overview
+
+This project aims to develop a classifier that predicts the condition of water wells in Tanzania based on various factors such as the type of pump, installation date, and other relevant information. The target audience for this classifier could be an NGO focused on identifying wells in need of repair or the Government of Tanzania seeking insights to inform future well construction decisions.
+
+### Business Problem and Data
+
+The business problem addressed  is the lack of access to clean water in Tanzania. Over 57 million people in Tanzania face difficulties in obtaining safe water, often resorting to collecting it from distant and unsafe sources. While progress has been made in establishing water points, many of them require repair or have become non-functional.
+
+The objectives of the project are as follows:
+
+    Develop a predictive model to classify the condition of water wells in Tanzania.
+    Identify patterns and factors contributing to non-functional wells.
+    Assist NGOs and the Tanzanian government in effectively allocating resources for well repair and construction initiatives.
+    Improve access to clean and safe water for the population of Tanzania.
+
+The available datasets from Taarifa and the Tanzanian Ministry of Water consist of information about waterpoints in Tanzania. The datasets include the test set values, which are the independent variables requiring predictions, training set labels indicating the dependent variable (status_group) for each row in the training set values, and training set values representing the independent variables for training.
+
+The ultimate goal is to predict the operating condition of each waterpoint based on various features, with the status_group serving as the target variable indicating the current operating condition of the waterpoint.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Phase 3 Project Description
 
