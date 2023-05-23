@@ -40,7 +40,7 @@ We tested the different models and based on the accuracy score we settled on the
     - Recall: Measures the proportion of correctly predicted instances out of the total actual instances for each class. Higher recall indicated fewer **false negatives**. The model has reasonably good recall for all classes.
     - F1-score: Is the harmonic mean of precision and recall, providing a balance between the two metrics. The F1-scores are relatively high for all classes, indicating good overall performance.
 
-Overall, the model achieved an accuracy of 81%, which means that it correctly predicted the class for approximately 81% of the instances in the validation set. The macro-averaged F1-score is also 81%, indicating consistent performance across all classes. The weighted average F1-score is also 81%, considering the class imbalance in the dataset.
+Overall, the model achieved an accuracy of 80.74%, which means that it correctly predicted the class for approximately 80.74% of the instances in the validation set. The macro-averaged F1-score is also 80.74%, indicating consistent performance across all classes. The weighted average F1-score is also 80.74%, considering the class imbalance in the dataset.
 
 ![image](/images/One%20hot%20coding.png)
 
