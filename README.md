@@ -4,27 +4,45 @@ Authors: Winfred Kabuya
 
 Period : May 2023
 
-images/R.jpeg
+!(images/R.jpeg)
 
 ## Project Overview
 
 This project aims to develop a classifier that predicts the condition of water wells in Tanzania based on various factors such as the type of pump, installation date, and other relevant information. The target audience for this classifier could be an NGO focused on identifying wells in need of repair or the Government of Tanzania seeking insights to inform future well construction decisions.
 
-### Business Problem and Data
+### Business Problem 
 
 The business problem addressed  is the lack of access to clean water in Tanzania. Over 57 million people in Tanzania face difficulties in obtaining safe water, often resorting to collecting it from distant and unsafe sources. While progress has been made in establishing water points, many of them require repair or have become non-functional.
 
 The objectives of the project are as follows:
 
-    Develop a predictive model to classify the condition of water wells in Tanzania.
-    Identify patterns and factors contributing to non-functional wells.
-    Assist NGOs and the Tanzanian government in effectively allocating resources for well repair and construction initiatives.
-    Improve access to clean and safe water for the population of Tanzania.
+    - Develop a predictive model to classify the condition of water wells in Tanzania.
+    - Identify patterns and factors contributing to non-functional wells.
+    - Assist NGOs and the Tanzanian government in effectively allocating resources for well repair and construction initiatives.
+    - Improve access to clean and safe water for the population of Tanzania.
 
 The available datasets from Taarifa and the Tanzanian Ministry of Water consist of information about waterpoints in Tanzania. The datasets include the test set values, which are the independent variables requiring predictions, training set labels indicating the dependent variable (status_group) for each row in the training set values, and training set values representing the independent variables for training.
 
 The ultimate goal is to predict the operating condition of each waterpoint based on various features, with the status_group serving as the target variable indicating the current operating condition of the waterpoint.
 
+## Data Understanding
+
+ - test_set_values represent the independent variables (features) for the test set, where predictions need to be made.
+ - training_set_labels represent the dependent variable (status_group) for each row in the training set values. It represents the current operating condition of the waterpoints.
+ - training_set_values: Represent the independent variables (features) for the training set, used to train the predictive model.
+
+## Modelling and Evaluation
+
+We tested the different models and based on the accuracy score we settled on the One-hot Coding classifier where:
+
+
+    - Precision: Measures the proportion of correctly predicted instances out of the total predicted instances for each class. Higher precision indicated fewer **false positives**.The model has good precision for all classes.
+    - Recall: Measures the proportion of correctly predicted instances out of the total actual instances for each class. Higher recall indicated fewer **false negatives**. The model has reasonably good recall for all classes.
+    - F1-score: Is the harmonic mean of precision and recall, providing a balance between the two metrics. The F1-scores are relatively high for all classes, indicating good overall performance.
+
+Overall, the model achieved an accuracy of 81%, which means that it correctly predicted the class for approximately 81% of the instances in the validation set. The macro-averaged F1-score is also 81%, indicating consistent performance across all classes. The weighted average F1-score is also 81%, considering the class imbalance in the dataset.
+
+!(image.png)
 
 
 
@@ -58,45 +76,6 @@ The ultimate goal is to predict the operating condition of each waterpoint based
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Phase 3 Project Description
-
-Congratulations! You've made it through another _intense_ module, and now you're ready to show off your newfound Machine Learning skills!
-
-![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-phase-3-project-v2-3/main/images/smart.gif)
-
-All that remains in Phase 3 is to put your new skills to use with another large project!
-
-In this project description, we will cover:
-
-* Project Overview
-* Deliverables
-* Grading
-* Getting Started
-
-## Project Overview
-
-For this project, you will engage in the full data science process from start to finish, solving a **classification** problem using a **dataset of your choice**.
-
-### Business Problem and Data
-
-Similar to the Phase 2 project, it is up to you to define a stakeholder and business problem. Unlike the Phase 2 project, you are also responsible for choosing a dataset.
-
-For complete details, see [Phase 3 Project - Choosing a Dataset](https://github.com/learn-co-curriculum/dsc-phase-3-choosing-a-dataset).
 
 ### Key Points
 
